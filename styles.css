@@ -1,0 +1,123 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #3e3b6a;
+    color: #fff;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #24224e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Who Am I Section */
+#who-am-i {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #4c4787;
+}
+
+#who-am-i .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    border: 3px solid #fff;
+}
+
+#who-am-i .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+#who-am-i h1 {
+    font-size: 2rem;
+}
+
+#who-am-i p {
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #5650a1;
+}
+
+#skills .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#skills .skill {
+    background-color: #fff;
+    color: #5650a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    background-color: #6e68c7;
+}
+
+#projects .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projects .project {
+    background-color: #fff;
+    color: #6e68c7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #24224e;
+    text-align: center;
+}
+
+footer .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
